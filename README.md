@@ -1,7 +1,12 @@
 # odin-RPS-game
 
 project for TOP;
-JS practice in the console;
-written to a script tag in a basically blank HTML file in order to produce some game logic as practice;
 
-game will take a value from a prompt and play against the machine in order for users to win;
+the game is designed to test our ability to write some basic logic, functions and loops etc;
+it is designed to be run in the dev console as text output in log statements (V1.0);
+helper functions are commented in the code;
+
+game will take a string value from a prompt and plays against the machine in order for users to win;
+plays five rounds of the game and declares a winner;
+
+there is some basic validation but no error handling etc at this stage;
