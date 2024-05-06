@@ -110,6 +110,7 @@ img {
   width: 15vw;
   font-size: 18px;
   padding: 4px;
+  min-width: 124px;
 }
 
 .game-button:hover {
