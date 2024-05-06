@@ -11,7 +11,7 @@
     <div class="header">TOP project: RPS</div>
     <div class="content">
       <div class="image-container">
-        <p>Computer:<span class="computer-score"></span></p>
+        <p>Computer: <span class="computer-score"></span></p>
         <div class="image-div">
           <img class="game-image computer-image" src="" alt="" />
         </div>
@@ -19,10 +19,21 @@
         <div class="image-div">
           <img class="game-image human-image" src="" alt="" />
         </div>
-        <p>You:<span class="human-score"></span></p>
+        <p>You: <span class="human-score"></span></p>
       </div>
       <div class="controls">
-        <button class="start-game game-button game-button-large">
+        <div class="control-div hidden">
+          <p class="game-text">Choose Your Fighter!</p>
+          <button id="rock" class="game-button game-button-small">ROCK</button>
+          <button id="paper" class="game-button game-button-small">
+            PAPER
+          </button>
+          <button id="scissors" class="game-button game-button-small">
+            SCISSORS
+          </button>
+        </div>
+        <p class="announcement hidden"></p>
+        <button class="start-button game-button game-button-large">
           START GAME
         </button>
       </div>

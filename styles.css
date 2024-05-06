@@ -6,6 +6,7 @@
 
 button {
   height: fit-content;
+  display: block;
 }
 
 /* .header,
@@ -29,8 +30,7 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: 0.5s;
-  opacity: 0;
+  transition: 0.2s;
 }
 
 .header {
@@ -72,6 +72,7 @@ img {
 
 .game-image {
   border-radius: 8px;
+  opacity: 0;
 }
 
 .controls {
@@ -81,6 +82,21 @@ img {
   align-items: center;
   width: 80vw;
   background-color: #d6d3d1;
+}
+
+.control-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2vh;
+  font-size: 24px;
+  font-weight: 600;
+}
+.announcement {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .game-button {
@@ -97,6 +113,12 @@ img {
   font-size: 24px;
 }
 
+.game-button-small {
+  width: 15vw;
+  font-size: 18px;
+  padding: 4px;
+}
+
 .game-button:hover {
   scale: 1.2;
 }
@@ -111,4 +133,8 @@ img {
   flex: 0;
   background-color: #737373;
   color: #d6d3d1;
+}
+
+.hidden {
+  display: none;
 }
