@@ -48,7 +48,7 @@ function playRound(humanChoice) {
   else setTimeout(nextRound, 2000);
 }
 
-// resets the user input section to accept another choice while the game is valid;
+// resets the user input section to accept another choice while the game remains valid;
 function nextRound() {
   hideAnnouncementText();
   userControlSection.classList.toggle("hidden");
