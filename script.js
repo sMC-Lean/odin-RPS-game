@@ -104,4 +104,4 @@ const playGame = function () {
 
 // calling the final function to play 5 rounds;
 
-playGame();
+// playGame();
